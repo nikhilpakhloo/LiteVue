@@ -1,0 +1,242 @@
+@import "./pxToRem.scss";
+@import "./font.scss";
+/**
+ * 주의: html에 font-size 지정하면 vuetify 컴포넌트 사이즈 오류 발생함
+ */
+
+* {
+  font-family: 'Spoqa Han Sans Neo', 'PP Pangram Sans', 'Arial', 'sans-serif';
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: -0.02em;
+  outline: none;
+  word-break: keep-all;
+//   -webkit-user-select: none;
+//   -moz-user-select: none;
+//   -ms-user-select: none;
+//   user-select: none;
+}
+* :not(input, textarea) {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+// reset css
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    opacity: 0.7;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    opacity: 0.7;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes text-focus-out {
+  0% {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    opacity: 0.7;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-out {
+  0% {
+    -webkit-filter: blur(5px);
+    filter: blur(12px);
+    opacity: 0.7;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.rotate90 {
+  transform: rotate(90deg);
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+input::placeholder,
+textarea::placeholder,
+::v-deep input::placeholder,
+::v-deep textarea::placeholder {
+  color: rgba(0, 0, 0, 0.2) !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+::v-deep .v-input__slot:before {
+  border-color: #dadada !important;
+}
+
+::v-deep .v-toolbar__content {
+  padding: 0 !important;
+}
