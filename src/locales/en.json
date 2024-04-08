@@ -1,0 +1,210 @@
+{
+  "language": "English",
+  "ko": "Korean",
+  "en": "Current setting",
+  "common": {
+    "save": "Save",
+    "filter": "Color correction",
+    "delete": "Delete",
+    "select": "Select",
+    "select-all": "Select all",
+    "select-none": "Deselect all",
+    "update": "Edit",
+    "edit": "Edit",
+    "done": "Done",
+    "cancel": "Cancel",
+    "add": "Add",
+    "yyyyMM": "{year}. {month}",
+    "disconnect": "Serial number has been removed.",
+    "ok": "OK",
+    "submit": "Submit",
+    "btn-filter": "Edit",
+    "close": "Close"
+  },
+  "error": {
+    "check-email": "Please enter your email address correctly.",
+    "del-comp": "Items have been deleted successfully.",
+    "filter-comp": "Color correction on selected photos has been saved.",
+    "save-comp": "Media has been saved successfullly.",
+    "comp": "Saved successfullly.",
+    "coll-del": "Collection ‘{collName}’ has been deleted.",
+    "disconnect": "Serial number has been removed.",
+    "filter-cnt-error": "You can color correct only {count} images at once.",
+    "error": "Please try again after a while."
+  },
+  "splash": {
+    "desc1": "Enjoy snorkeling\nwith your smartphone",
+    "desc2": "Take a photo with a smartphone\ncamera at underwater",
+    "desc3": "Automatic logbook\nwill be created after diving",
+    "btn": "Start"
+  },
+  "footer": {
+    "dive": "DIVE",
+    "logbook": "GALLERY",
+    "mypage": "MY PAGE"
+  },
+  "device": {
+    "device-title": "Register UNIVERSAL Lite",
+    "device-desc": "Serial registration is needed to use the snorkeling mode.\nPrepare the housing for the registration.",
+    "btn-start": "Start Registration",
+    "btn-later": "I’ll do it later"
+  },
+  "scan": {
+    "check-number": "Provide a serial number",
+    "complete": "Your UNIVERAL Lite has been registered. ",
+    "do-scan": "Check the 8 letters of serial number printed inside the housing for product warranty. ",
+    "check-scan": "Check the 8 letters of serial number printed inside the housing for product warranty. ",
+    "btn-scan": "Check serial number with camera",
+    "btn-next": "Continue",
+    "btn-gohome": "Back to Home",
+    "hint": "Enter your serial number", 
+    "camera": {
+      "btn": "Scan",
+      "btn-ok": "Confirm",
+      "re-btn": "Scan again",
+      "do-scan": "Position the serial number on the \nback of your housing in the rectangle area.",
+      "scanning": "Scanning in progress.",
+      "check-scan": "Check if the serial number\nhas been entered correctly."
+    }
+  },
+  "auth": {
+    "sub": "Please enable access to<br/>the following features<br/>to use DIVEROID",
+    "desc": "Disabled access may cause restrictions in using the service.",
+    "bluetooth": "Change system setting (Required)",
+    "bluetooth-desc": "Required for using bluetooth and enabling other exceptional cases",
+    "camera": "Camera (Required)",
+    "camera-desc": "Required for filming and downloading images",
+    "mic": "Microphone (Required)",
+    "mic-desc": "Required for filming videos",
+    "location": "Location (Optional)",
+    "location-desc": "Required for creating log data, dive location recommendation, and sending location message"
+  },
+  "dive": {
+    "start": "Let’s start<br/>Snorkeling!",
+    "setting": "Default setting",
+    "check-device": "Register your device first",
+    "check-device-desc": "You can use snorkeling mode after registering the serial number of UNIVERSAL Lite.",
+    "check-device-ok": "Register device",
+    "check-device-cancel": "Confirm"
+  },
+  "camera": {
+    "title": "Default setting",
+    "camera-setting": "Camera settings",
+    "resolution": "Resolution",
+    "ratio": "Screen ratio",
+    "full-screen": "Full screen",
+    "high-quality": "High resolution",
+    "location-setting": "Location sharing setting",
+    "location-send": "Location sharing",
+    "location-hint": "Enter the contact number",
+    "location-tooltip": "You can share your location with the registered contacts. ",
+    "addr": "Contacts"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "my-pic": "My photos",
+    "more": " More",
+    "filter": "Edit photos",
+    "filter-desc": "Color correct your<br/>photos at once",
+    "edit": {
+      "select": "{count} items selected",
+      "delect-desc": "Would you like to delete the selected media?"
+    },
+    "sel-cnt": "{count} items selected",
+    "memo": "Memo",
+    "memo-hint-title": "Type the title",
+    "memo-hint": "Type the contents"
+  },
+  "collection": {
+    "title": "Collection",
+    "my-pic": "My photos",
+    "like": "Favorites",
+    "empty": "There are no collections yet",
+    "empty-desc": "Creat your own collection by<br/>collecting photos taken by DIVEROID",
+    "btn-reg": "Create collection",
+    "reg": "Create new collection",
+    "next": "Next",
+    "reg-hint": "Enter collection title",
+    "reg-title": "Title",
+    "pics": {
+      "title": "Items to add",
+      "desc": "Add {count} items to ‘{title}’"
+    },
+    "info": {
+      "pic-cnt": "{count} items"
+    },
+    "edit": {
+      "title": "Edit collection",
+      "delete": "Delete collection",
+      "del-desc": "Deleting collection will not delete photos and videos"
+    },
+    "delete": {
+      "check": "Are you sure you want to delete the collection ‘{name}’?",
+      "check-desc": "Deleting collection will not delete photos and videos from the gallery. "
+    },
+    "media": {
+      "delete-collection": "Would you like to delete items from this collection only? OR Would you like to delete them from all collections?",
+      "btn-delect": "Delete from here",
+      "btn-delect-all": "Delete from all"
+    }
+  },
+  "mypage": {
+    "record": "My record",
+    "total-log": "Total logs",
+    "total-time": "Total hours",
+    "setting": "Settings",
+    "lang": "Language",
+    "lang-select": "Choose the language",
+    "device": {
+      "title": "My device",
+      "no-device": "Do you have UNIVERSAL Lite?",
+      "no-device-desc": "Please connect your device to DIVEROID Lite app and use it.",
+      "reg-device": "Register my device",
+      "disconnect": "Remove device",
+      "period": "Warranty period",
+      "serial-desc1": " In order to register different serial number, the current serial number needs to be removed.",
+      "serial-desc2": "In order to use the UNIVERSAL Housing on a different account, first remove its serial number on the currently logged in account.",
+      "serial-desc3": "Warranty period is 2 years from the day of registration.",
+      "delete": {
+        "title": "Remove serial number",
+        "cont": "Are you sure you want to remove the UNIVERSAL Lite’s serial?",
+        "btn": "Remove"
+      }
+    },
+    "center": {
+      "title": "Customer center",
+      "btn": {
+        "title": "Button guide"
+      },
+      "manual": {
+        "title": "User guide"
+      },
+      "notice": {
+        "title": "Notice",
+        "more": "Read more"
+      },
+      "contact": {
+        "title": "Contact",
+        "desc": "If the product is damaged or defective, please provide the details with an image of the product. Irrelevant or illegal contents will be deleted without notice.<br/><br/>We are implementing protective measures for customer service workers according to the Occupational Safety and Health Law. Abusive language, sexual harassment, aggression, and any conduct that causes physical or emotional distress will not be responded to.",
+        "label-title": "Title",
+        "hint-title": "Enter title",
+        "hint-cont": "Enter inquiry",
+        "label-cont": "What is the inquiry about?",
+        "file-sub1": "Please don’t include personal information in the attached files.",
+        "file-sub2": "You can upload upto 5 images and 2 videos of a minute length.",
+        "label-tel": "Provide your name and email",
+        "hint-name": "Name",
+        "hint-tel": "Email"
+      }
+    },
+    "appinfo": {
+      "title": "App information",
+      "privacy": "Privacy policy",
+      "license": "Open source license",
+      "version": "Version info"
+    }
+  },
+  "license": "Open source license Contents",
+  "privacy": "Privacy policy Contents",
+  "terms": "Terms Contents"
+}
