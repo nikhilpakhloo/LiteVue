@@ -1,6 +1,7 @@
 <template>
   <lay-header
-    :showBack="true"
+       :showBack="showBack"
+
     :tBarColor="'#FFFFFF'"
     :isGetingItems="isGetingItems"
     :txtRight="step < 3 && routerName ? 'Skip' : null"
@@ -109,7 +110,11 @@ export default {
       step: 1,
     };
   },
-  computed: {},
+  computed: {
+    showBack() {
+      return this.step !== 3;
+    },
+  },
   watch: {},
   created() {},
   mounted() {},
