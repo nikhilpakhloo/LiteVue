@@ -26,7 +26,8 @@
           <span class="txt-date">{{ getDateFormat(item.startDate) }}</span>
           <v-layout v-if="item.majorLocation">
             <img class="ml-2" src="@/assets/images/ic-location-g.svg" />
-            <span class="txt-loc">{{ $i18n.locale == 'en' ? item.majorLocationEn : item.majorLocation }}</span>
+            <span class="txt-loc">  {{ $i18n.locale && $i18n.locale === 'ko' ? item.majorLocation : item.majorLocationEn }}
+</span>
             <!-- <span class="txt-loc">{{ item.majorLocation.split(",")[1] }}</span> -->
           </v-layout>
           <v-spacer />

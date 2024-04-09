@@ -35,10 +35,10 @@
         </span>
         <v-layout v-if="gallInfo.majorLocation">
           <img class="ml-2" src="@/assets/images/ic-location-g.svg" />
-          <span class="txt-loc">{{
-            $i18n.locale == "en"
-              ? gallInfo.majorLocationEn
-              : gallInfo.majorLocation
+          <span class="txt-loc">{{$i18n.locale &&
+            $i18n.locale === "ko"
+              ? gallInfo.majorLocation
+              : gallInfo.majorLocationEn
           }}</span>
         </v-layout>
       </v-layout>

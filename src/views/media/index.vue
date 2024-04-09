@@ -872,12 +872,15 @@ export default {
     },
     onClickActionFilter() {
       window.onFilterComplete = (res) => {
+
        if( this.isEditMode = false)
         if (res) {
           this.$store.commit("filterVer", this.filterVer + 1);
           this.getData(this.fileInfo.mediaId);
+
         }
-        this.showToast(this.$t("error.filter-comp"), false, false,);
+        // this.showToast(this.$t("error.filter-comp"), false, false,);
+
 
         delete window.onFilterComplete;
      
