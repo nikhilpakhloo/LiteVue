@@ -1,6 +1,6 @@
 export const baseRemSize = 16
 export const FILE_MAX_SIZE = 10 // MB
-export const IMAGE_MAX_SIZE = 2 // MB
+export const IMAGE_MAX_SIZE = 30 // MB
 export const VIDEO_MAX_SIZE = 3 //GB
 export const FILTER_MAX_SIZE = 10 // 한번에 보정할 수 있는 갯수
 

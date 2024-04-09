@@ -19,7 +19,7 @@
        
       /> -->
       <label>{{ $t('collection.reg-title') }}</label>
-      <input type="text" v-model="inputName" :maxlength="40" :placeholder="$t('collection.reg-hint')"  style="border-bottom: 1px solid lightgray; padding-top: 4px; padding-bottom: 4px;"/>
+      <input :type="text" v-model="inputName" :maxlength="20" :placeholder="$t('collection.reg-hint')"  style="border-bottom: 1px solid lightgray; padding-top: 4px; padding-bottom: 4px;"/>
 
     </v-layout>
   </lay-header>
