@@ -31,6 +31,7 @@
     "disconnect": "Serial number has been removed.",
     "filter-cnt-error": "You can color correct only {count} images at once.",
     "error": "Please try again after a while."
+    
   },
   "splash": {
     "desc1": "Enjoy snorkeling\nwith your smartphone",
@@ -120,7 +121,7 @@
     "my-pic": "My photos",
     "like": "Favorites",
     "empty": "There are no collections yet",
-    "empty-desc": "Creat your own collection by<br/>collecting photos taken by DIVEROID",
+    "empty-desc": "Create your own collection by<br/>collecting photos taken by DIVEROID",
     "btn-reg": "Create collection",
     "reg": "Create new collection",
     "next": "Next",

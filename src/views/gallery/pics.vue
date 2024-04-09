@@ -86,14 +86,12 @@ export default {
   created() {
     window.addEventListener("scroll", this.handleScroll);
     window.onFilterComplete = (res) => {
-      if(res) {
-        this.showToast(this.$t("error.filter-comp"), false, false);
-        this.$store.commit("filterVer", this.filterVer + 1);
-        this.$router.go(-1);
-      }else{
-        
-      }
-    };
+  if (res) {
+    this.showToast(this.$t("error.filter-comp"), false, false);
+    this.$store.commit("filterVer", this.filterVer + 1);
+    this.$router.go(-1);
+  }
+};
   },
   mounted() {
     this.getItems();
