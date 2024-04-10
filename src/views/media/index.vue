@@ -879,7 +879,7 @@ export default {
           this.getData(this.fileInfo.mediaId);
 
         }
-        // this.showToast(this.$t("error.filter-comp"), false, false,);
+        this.showToast(this.$t("error.filter-comp"), false, false,);
 
 
         delete window.onFilterComplete;
